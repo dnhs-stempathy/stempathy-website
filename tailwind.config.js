@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        libre: ['Libre Baskerville', 'serif'],
+      },
+      colors: {
+        customGreen: '#E2F6CD',
+        customGray: '#F2F2F1',
+        customTeal: '#CFF4EC',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
