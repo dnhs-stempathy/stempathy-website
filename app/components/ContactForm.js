@@ -36,7 +36,7 @@ const ContactForm = () => {
 
     return (
         <div className="max-w-md mx-auto py-8">
-            <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-lg">
+            <form onSubmit={handleSubmit} className=" bg-transparent p-6 rounded">
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2">Name:</label>
                     <input

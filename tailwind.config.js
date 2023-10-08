@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
         customGreen: '#E2F6CD',
+        customGreen2: '#DAF7A6',
         customGray: '#F2F2F1',
         customTeal: '#CFF4EC',
       },

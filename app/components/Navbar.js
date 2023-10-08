@@ -76,7 +76,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={ButtonStyles}>
-                                <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                                <Link href="/contactPage" onClick={() => setNavbar(!navbar)}>
                                     Contact
                                 </Link>
                             </li>
