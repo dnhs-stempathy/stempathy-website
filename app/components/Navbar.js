@@ -7,7 +7,7 @@ import { IoCloseSharp } from 'react-icons/io5';
 import { useEffect } from 'react';
 
 function Navbar() {
-    const ButtonStyles = 'pb-6 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  border-black hover:text-teal-600 md:hover:bg-transparent';
+    const ButtonStyles = ' pb-4 mt-3 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 border-black md:mt-[-5px] hover:text-teal-600';
     const [navbar, setNavbar] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -57,16 +57,16 @@ function Navbar() {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-4 md:p-0 block' : 'hidden'}`}
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-4 md:p-0' : 'hidden'}`}
                     >
                         <ul className="h-screen md:h-auto items-center justify-center md:flex mt-3">
                             <li className={ButtonStyles}>
-                                <Link href="#home" onClick={() => setNavbar(!navbar)}>
+                                <Link href="/" onClick={() => setNavbar(!navbar)}>
                                     Home
                                 </Link>
                             </li>
                             <li className={ButtonStyles}>
-                                <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                                <Link href="/aboutPage" onClick={() => setNavbar(!navbar)}>
                                     About
                                 </Link>
                             </li>
