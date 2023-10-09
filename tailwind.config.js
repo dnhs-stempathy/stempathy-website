@@ -15,6 +15,10 @@ module.exports = {
         customGreen2: '#DAF7A6',
         customGray: '#F2F2F1',
         customTeal: '#CFF4EC',
+        Instagram: '#bc2a8d',
+        Youtube: `#c4302b`,
+        Facebook: `#3b5998`,
+        TikTok: `#69c9d0`,
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

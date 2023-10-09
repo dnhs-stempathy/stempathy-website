@@ -10,8 +10,11 @@
 
 .icon {
     font-size: 2em;
-    color: black;
     transition: transform 0.3s, color 0.3s;
+}
+
+.icon .facebook {
+    color: #3b5998;
 }
 
 .icon:hover {

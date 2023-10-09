@@ -31,7 +31,7 @@ const aboutPage = () => {
                 </p>
                 <br>
                 </br>
-                <p className=' font-serif'>
+                <p className=' flex justify-center text-center font-serif'>
                     So far, we have spread our mission of teaching STEM to over 100 students
                     and are striving to go past and through the world.
                 </p>
