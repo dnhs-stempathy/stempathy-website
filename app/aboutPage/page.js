@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import '../globals.css';
 import Image from 'next/image';
-import ImageGallery from '../components/ImageGallery';
+import ImageSlider from '../components/ImageSlider';
 import Footer from '../components/Footer'
 
 const aboutPage = () => {
@@ -54,11 +54,9 @@ const aboutPage = () => {
                 <p className=' font-seri max-w-6xl mx-auto'>
                     We at STEMpathy have already spread our mission of equitable STEM education to over 100 students locally. We are currently in the process of expanding internationally to schools not only in San Diego but also in India.
                 </p>
+                <ImageSlider />
                 <br>
                 </br>
-                <br>
-                </br>
-                <ImageGallery />
             </section>
             <div className='w-screen h-26 bg-gray-200 border-black'>
                 <Footer />
