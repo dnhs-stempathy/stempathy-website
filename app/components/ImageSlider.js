@@ -9,13 +9,13 @@ const UpdatedSliderComponent = () => {
             imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
         },
         {
-            imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
+            imageURL: 'https://static.wixstatic.com/media/1df416_717fad7f2a0e4fd1a623e7a5c8d6fb45~mv2.png/v1/fill/w_679,h_521,al_c,lg_1,q_85,enc_auto/Screenshot%202023-09-18%20215025.png',
         },
         {
             imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
         },
         {
-            imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
+            imageURL: 'https://static.wixstatic.com/media/1df416_717fad7f2a0e4fd1a623e7a5c8d6fb45~mv2.png/v1/fill/w_679,h_521,al_c,lg_1,q_85,enc_auto/Screenshot%202023-09-18%20215025.png',
         },
         {
             imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',

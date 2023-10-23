@@ -19,6 +19,8 @@ module.exports = {
         Youtube: `#c4302b`,
         Facebook: `#3b5998`,
         TikTok: `#69c9d0`,
+        customBlue: `#007bff`,
+        customBlueHover: `#0056b3`,
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -7,7 +7,8 @@ import { IoCloseSharp } from 'react-icons/io5';
 import { useEffect } from 'react';
 
 function Navbar() {
-    const ButtonStyles = ' pb-4 mt-3 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 border-black md:mt-[-5px] hover:text-teal-600';
+    const ButtonStyles = 'pb-4 mt-3 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 border-black md:mt-[-5px] transition-colors duration-300 hover:text-teal-600';
+    // const ButtonStyles = 'pb-4 mt-3 text-xl text-black py-2 md:px-6 text-center border-black md:border-b-0 border-black md:mt-[-5px] rounded-md transition-colors duration-300 hover:text-white hover:bg-teal-600'
     const [navbar, setNavbar] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -60,24 +61,24 @@ function Navbar() {
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-4 md:p-0' : 'hidden'}`}
                     >
                         <ul className="h-screen md:h-auto items-center justify-center md:flex mt-3">
-                            <li className={ButtonStyles}>
+                            <li>
                                 <Link href="/" onClick={() => setNavbar(!navbar)}>
-                                    Home
+                                    <p className={ButtonStyles}>Home</p>
                                 </Link>
                             </li>
-                            <li className={ButtonStyles}>
+                            <li>
                                 <Link href="/aboutPage" onClick={() => setNavbar(!navbar)}>
-                                    About
+                                    <p className={ButtonStyles}>About</p>
                                 </Link>
                             </li>
-                            <li className={ButtonStyles}>
-                                <Link href="#blog" onClick={() => setNavbar(!navbar)}>
-                                    Blog
+                            <li>
+                                <Link href="/blog" onClick={() => setNavbar(!navbar)}>
+                                    <p className={ButtonStyles}>Blog</p>
                                 </Link>
                             </li>
-                            <li className={ButtonStyles}>
+                            <li>
                                 <Link href="/contactPage" onClick={() => setNavbar(!navbar)}>
-                                    Contact
+                                    <p className={ButtonStyles}>Contact</p>
                                 </Link>
                             </li>
                         </ul>

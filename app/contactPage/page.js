@@ -22,7 +22,7 @@ const page = () => {
             <ul className='flex flex-col justify-center items-center font-serif text-2xl italic'>
                 <li className='py-6'>Location: San Diego, CA 92127</li>
                 <li className='py-6'>Email: clubstempathy@gmail.com</li>
-                <li className='py-6'>Instagram: dnhs_stempathy</li>
+                <li className='py-6'>Instagram: @dnhs_stempathy</li>
             </ul>
             <div className='w-screen h-26 bg-gray-200 border-black'>
                 <Footer />

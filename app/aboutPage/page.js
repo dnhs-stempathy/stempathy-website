@@ -4,6 +4,7 @@ import Image from 'next/image';
 import ImageSlider from '../components/ImageSlider';
 import Footer from '../components/Footer'
 
+
 const aboutPage = () => {
     const imageUrl = 'https://static.wixstatic.com/media/1df416_717fad7f2a0e4fd1a623e7a5c8d6fb45~mv2.png/v1/fill/w_679,h_521,al_c,lg_1,q_85,enc_auto/Screenshot%202023-09-18%20215025.png';
 
@@ -13,7 +14,7 @@ const aboutPage = () => {
             <section
                 className="text-black h-screen bg-gray-200 flex flex-col justify-center items-center"
             >
-                <h1 className=' text-2xl font-serif mt-20 italic'>About</h1>
+                <h1 className=' text-2xl font-serif mt-40 italic'>About</h1>
                 <br>
                 </br>
                 <h2 className='text-5xl font-serif'>STEMpathy DNHS</h2>

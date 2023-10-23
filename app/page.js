@@ -2,11 +2,32 @@ import Navbar from './components/Navbar';
 import Boxes from './components/Boxes';
 import './globals.css';
 import Image from 'next/image';
-import ContactForm from './components/ContactForm';
 import Footer from './components/Footer'
+import Card from './components/Card'
 
 const App = () => {
   const imageUrl = 'https://static.wixstatic.com/media/1df416_717fad7f2a0e4fd1a623e7a5c8d6fb45~mv2.png/v1/fill/w_679,h_521,al_c,lg_1,q_85,enc_auto/Screenshot%202023-09-18%20215025.png';
+
+  const cardsData = [
+    {
+      id: 1,
+      imageSrc: 'https://via.placeholder.com/368x256',
+      description: 'blog 1',
+      link: '/blog1',
+    },
+    {
+      id: 2,
+      imageSrc: 'https://via.placeholder.com/368x256',
+      description: 'blog 2',
+      link: '/blog2',
+    },
+    {
+      id: 3,
+      imageSrc: 'https://via.placeholder.com/368x256',
+      description: 'blog 3',
+      link: '/blog2',
+    },
+  ];
 
   return (
     <div>
@@ -22,15 +43,23 @@ const App = () => {
       <section id="vision" className="bg-white h-screen] text-center flex">
         <Boxes />
       </section>
-      <section
-        id="blogs"
-        className="text-white h-screen bg-gray-400 text-center flex"
-      >
-        <h1 className="m-auto font-waterfall text-7xl text-black">
-          Blog Showcase
+      <section className="text-white h-screen] bg-gray-200">
+        <h1 className="font-serif text-3xl text-black text-center pt-10 underline">
+          Blogs
         </h1>
-        {/* <ContactForm /> */}
+        <div className="flex flex-col justify-center text-center items-center md:flex-row">
+          {cardsData.map((card) => (
+            <Card
+              key={card.id}
+              imageSrc={card.imageSrc}
+              description={card.description}
+              link={card.link}
+            />
+          ))}
+        </div>
       </section>
+      <div className='w-screen h-40 bg-gray-200'>
+      </div>
       <div className='w-screen h-26 bg-gray-200 border-black'>
         <Footer />
       </div>
